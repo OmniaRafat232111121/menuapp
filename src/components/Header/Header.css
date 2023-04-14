@@ -1,0 +1,51 @@
+header{
+    width:100%;
+    height:auto;
+    padding:10px 0;
+    background-color: #cb6327;
+
+    border:1px solid #cb6327;
+    overflow: hidden;
+    align-items: center;
+ 
+}
+header h2{
+    color:#fff;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+
+}
+header button{
+    width:160px;
+    height:40px;
+    padding: 10px;
+    line-height: 45px;
+    background-color: #704625;
+    border:1px solid #704625;
+    overflow: hidden;
+    border-radius: 20px;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header button span{
+    background-color: #9a6f4e;
+    display:block;
+    color:#fff;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 40px;
+    width:40px;
+
+}
+
+.main{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.main img{
+    width: 100%;
+    height:400px;
+}
