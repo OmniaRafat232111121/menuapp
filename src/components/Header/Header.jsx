@@ -7,17 +7,17 @@ const Header = () => {
     <>
     <header >
     <div className='container'>
-    <div className='row'>
+    <div className='row content flex items-center justify-between '>
      <div className='col-md-6 col-lg-6'>
-        <h2>Food App</h2>
-
-     </div>
-     <div className='col-md-6 col-lg-6'>
+            <h2>Food App</h2>
+      </div>
+     <div className='  col-md-6 col-lg-6'>
     <HeaderButton/>
+    </div>
      </div>
     </div>
 
-    </div>
+    
     </header>
     <div className='main'>
       <img src={menuapp} title="header image"/>
